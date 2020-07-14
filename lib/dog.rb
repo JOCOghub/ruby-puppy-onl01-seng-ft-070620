@@ -11,6 +11,9 @@ class Dog
   def self.all 
     @@all
   end   
+  def clear_all
+    @all.clear
+  end  
   
   def print_all 
     @@all.each do |name|
@@ -22,7 +25,5 @@ class Dog
     @@all << self
   end   
   
-  def clear_all
-    @all.clear
-  end   
+   
 end   
