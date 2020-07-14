@@ -23,6 +23,6 @@ class Dog
   end   
   
   def 
-    
+    @all.clear
   end   
 end   
