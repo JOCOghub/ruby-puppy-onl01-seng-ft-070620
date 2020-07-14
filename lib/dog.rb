@@ -14,4 +14,7 @@ class Dog
     end
   end     
   
+  def save
+    
+  
 end   
