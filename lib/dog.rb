@@ -22,7 +22,7 @@ class Dog
     @@all << self
   end   
   
-  def 
+  def clear_all
     @all.clear
   end   
 end   
